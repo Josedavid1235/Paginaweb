@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>TotalBody</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>Total<span class="txtRojo">Body</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Nunca digas No!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CROSSFIT
+                </div>
+                <div class="opcion">
+                    03.BOXING
+                </div>
+                <div class="opcion">
+                    04.KICK BOXING
+                </div>
+                <div class="opcion">
+                    05.YOGA
+                </div>
+                <div class="opcion">
+                    06.CARDIO
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/aqui.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">.</p>
+                <p>En TotalBody, nuestro objetivo es ayudarte a alcanzar tu mejor versión, sin importar tu nivel de condición física. Creemos que cada persona tiene un potencial ilimitado, y estamos aquí para proporcionarte las herramientas, el espacio y el apoyo necesario para que logres tus metas.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">¿Por qué Elegirnos?</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">TotalBody</p>
+                    <p>En TotalBody, nos especializamos en ofrecer entrenamientos que desafían tu cuerpo y mente, con una amplia variedad de servicios que se adaptan a tus objetivos personales. Ya sea que quieras mejorar tu resistencia, aumentar tu fuerza, perder peso o liberar estrés, tenemos las clases y programas ideales para ti. ¡Prepárate para llevar tu entrenamiento al siguiente nivel A un precio muy acequible!</p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Clases </span> de Fitness</h3>
+                        <p>El Fitness es la base para cualquier persona que quiera llevar un estilo de vida saludable. En nuestro gimnasio, encontrarás entrenamientos diseñados para mejorar tu fuerza, flexibilidad, tonificación muscular y resistencia.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases </span> de Crossfit</h3>
+                        <p>El CrossFit es un entrenamiento de alta intensidad que combina ejercicios funcionales con movimientos olímpicos, levantamiento de pesas y gimnasia. En TotalBody Gym, ofrecemos entrenamientos de CrossFit que te desafiarán a superar tus límites.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>El boxeo es una de las disciplinas más completas y exigentes que puedes practicar, y en TotalBody te ofrecemos un entrenamiento intensivo para desarrollar tu fuerza, agilidad y resistencia.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Kick Boxing</h3>
+                        <p>El Kickboxing es una mezcla de técnicas de boxeo y artes marciales, diseñada para mejorar la fuerza, la coordinación y la agilidad.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Clases </span> de Cardio</h3>
+                        <p>Si tu objetivo es mejorar tu salud cardiovascular, quemar calorías y aumentar tu resistencia, nuestra área de Cardio es el lugar ideal para ti.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3><span class="txtRojo">Clases </span> de Ciclismo</h3>
+                        <p>Si eres amante del ciclismo o buscas una forma divertida y efectiva de hacer cardio, nuestras clases de Ciclismo son perfectas para ti.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial"> En TotalBody Gym, nos aseguramos de que tu experiencia no solo sea efectiva, sino también cómoda y conveniente.</p>
+                <ul>
+                    <li><span>Cursos</span> - Disfruta de nuestros cursos a precios razonables, en estos cursos te ensañaremos a tonificar el cuerpo.</li>
+                    <li><span>WIFI GRATIS</span> - Mantente conectado en todo momento con nuestro WiFi gratuito. Sabemos que la tecnología es parte de tu vida diaria, por eso ponemos a tu disposición una conexión rápida y segura para que puedas navegar, escuchar música.</li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> - Olvídate de la preocupación por el estacionamiento. En TotalBody Gym, ofrecemos estacionamiento gratuito para todos nuestros miembros.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                <video width="320" height="240" controls>
+                        <source src="videos/cristiano.mp4" type="video/mp4">
+                        <source src="videos/cristiano.mp4" type="video/ogg">
+                </div>
+                <div class="col">
+                    <video width="320" height="240" controls>
+                        <source src="videos/Jalón con triángulo..mp4" type="video/mp4">
+                        <source src="videos/Jalón con triángulo..mp4" type="video/ogg">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/jose.jpg" alt="">
+                    <div class="info">
+                        <h2>Jose</h2>
+                        <p>Fitness - Kickboxing - Boxeo</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div> 
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <input type="file" placeholder="Enviar queja">
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Avenida Colombia 255
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    604- 456788
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+<audio controls autoplay>
+                <source src="videos/sonidos/Musica.mp3" type="audio/ogg">
+                <source src="videos/sonidos/Musica.mp3" type="audio/mpeg">
+
+        </audio>
+
+    </section>
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo"></span> TotalBody</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
